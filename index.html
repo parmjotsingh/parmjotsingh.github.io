@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <div class="info">
+      <div class="row1">
+        <button type="button" name="start" onclick="start()">START</button>
+        <p>Press "<span style="color:green"> S </span>" to Start</p>
+      </div>
+      <p>Press SPACE to jump</p>
+    </div>
+    <div class="box">
+      <script src="script.js"></script>
+    </div>
+    <div class="score" id="score">
+      SCORE :  <span id="scoreResult">0</span>
+    </div>
+    <div class="end" id="gameover">
+      GAME OVER
+    </div>
+  </body>
+</html>
