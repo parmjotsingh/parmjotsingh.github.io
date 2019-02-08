@@ -24,7 +24,7 @@ function setup() {
 
 let position=300;
 
-let x=100,diff=200;
+let x=100,diff=100;
 let wide=40;
 let wait=0;
 let change=02;
